@@ -1,1 +1,5 @@
+# Jekyll
 _site/
+
+# Config
+.DS_Store
