@@ -9,3 +9,5 @@ github_username:  nathaneanes
 
 # Build settings
 markdown: kramdown
+
+highlighter: pygments

@@ -9,7 +9,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     blankslate (2.1.2.4)
-    breakpoint (2.4.2)
+    breakpoint (2.4.6)
       sass (~> 3.3.0)
       sassy-maps (< 1.0.0)
     celluloid (0.15.2)
@@ -115,6 +115,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (3.1.2)
+    rouge (1.6.2)
     safe_yaml (1.0.3)
     sass (3.3.14)
     sass-media_query_combiner (0.0.6)
@@ -138,6 +139,7 @@ DEPENDENCIES
   breakpoint (~> 2.4.2)
   compass (~> 1.0.1)
   github-pages
+  rouge (~> 1.6.2)
   sass (~> 3.3.14)
   sass-media_query_combiner
   susy (~> 2.1.2)
