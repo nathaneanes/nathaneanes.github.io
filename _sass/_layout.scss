@@ -171,6 +171,15 @@
   font-size: 1.25em;
   line-height: 140%;
   padding: 100px 0;
+  strong {
+    color: $brand-color;
+  }
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .page-heading {
