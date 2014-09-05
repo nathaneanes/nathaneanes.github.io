@@ -10,6 +10,10 @@
   .wrapper {
     border-bottom: 1px solid $grey-color-dark;
   }
+  img.logo {
+    margin: 1em 0;
+    max-width: 200px;
+  }
 }
 
 .site-header,
@@ -99,7 +103,27 @@
  * Site footer
  */
 .site-footer {
+  color: $grey-color-dark;
   padding: $spacing-unit 0;
+  .prefooter {
+    padding: 4em 0 5em;
+    h2 {
+      font-weight: bold;
+      margin: 0.5em 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        border-top: 1px dashed $grey-color-light;
+        padding: 0.5em 0;
+        &:hover {
+          color: $grey-color;
+        }
+      }
+    }
+  }
 }
 
 .footer-heading {
@@ -115,7 +139,6 @@
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: $text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -168,9 +191,7 @@
  * Page content
  */
 .page-content {
-  font-size: 1.25em;
-  line-height: 140%;
-  padding: 100px 0;
+  padding: 6em 0;
   strong {
     color: $brand-color;
   }
@@ -179,6 +200,10 @@
     &:hover {
       text-decoration: none;
     }
+  }
+  .larger {
+    font-size: 1.25em;
+    line-height: 140%;
   }
 }
 
