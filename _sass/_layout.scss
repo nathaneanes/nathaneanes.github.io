@@ -98,47 +98,9 @@
   }
 }
 
-
-
 /**
- * Site footer
+ * Middle section "profile" picture 
  */
-
-ul.rows,
-ul.float {
-  li {
-    list-style: none;
-    padding: 0.5em 0 0.5em 1.25em;
-    color: $grey-color-dark;
-    opacity: 0.7;
-    -moz-opacity: 0.7;
-    &:hover {
-      opacity: 1;
-      -moz-opacity: 1;
-    }
-    a {
-      text-decoration: underline;
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
-}
-
-ul.rows {
-  li {
-    border-top: 1px dashed $grey-color-light;   
-    background: url(../images/checkmark.png) left center no-repeat; 
-  }
-}
-
-ul.float {
-  li {
-    float: left;
-    background: url(../images/arrow.png) left center no-repeat;
-    margin-right: 2em;
-  }
-}
 
 .profile-image {
   margin: -78px auto;
@@ -152,6 +114,10 @@ ul.float {
     border-radius: 50%;
   }
 }
+
+/**
+ * Pre-footer and Footer region 
+ */
 
 .prefooter {
   color: $grey-color-dark;
