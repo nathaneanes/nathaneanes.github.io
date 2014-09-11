@@ -48,6 +48,21 @@ img {
   vertical-align: middle;
 }
 
+.img-left {
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+}
+
+.img-right {
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 /**
@@ -188,15 +203,24 @@ pre {
  * Icons
  */
 .icon {
-
   > svg {
     display: inline-block;
     width: 16px;
     height: 16px;
     vertical-align: middle;
+  }
+}
 
-    path {
-      fill: $brand-green;
+svg {
+  path {
+    .icon--linkedin & {
+      fill: $linkedin-color;
+    }
+    .icon--github & {
+      fill: #000;
+    }
+    .icon--twitter & {
+      fill: $twitter-color;
     }
   }
 }

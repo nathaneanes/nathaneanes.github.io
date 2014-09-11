@@ -140,11 +140,24 @@ ul.float {
   }
 }
 
+.profile-image {
+  margin: -78px auto;
+  padding: 3px 0;
+  border-radius: 50%;
+  width: 156px;
+  background-color: #fff;
+  text-align: center;
+  img {
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+}
+
 .prefooter {
   color: $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   background: #fff;
-  padding: 4em 0 5em;
+  padding: 8em 0 5em;
   h2 {
     margin: 1em 0 0.5em 0;
   }
@@ -159,6 +172,15 @@ ul.float {
   color: $grey-color-dark;
   padding: $spacing-unit 0;
   background: lighten($grey-color, 45%);
+  .icon--linkedin a {
+    color: $linkedin-color;
+  }
+  .icon--github a {
+    color: #000;
+  }
+  .icon--twitter a {
+    color: $twitter-color;
+  }
 }
 
 .footer-heading {
@@ -226,7 +248,7 @@ ul.float {
  * Page content
  */
 .page-content {
-  padding: 6em 0;
+  padding: 6em 0 9em 0;
   strong {
     color: $brand-yellow;
   }
